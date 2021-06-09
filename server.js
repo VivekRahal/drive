@@ -12,7 +12,7 @@ var express =require("express");  //lib-----Node Module
 var app=express();  // will create app object from express package
 
 var onAboutUs=function(req, res){
-    res.send("Chief Mentor :Ravi Tambade");
+    res.send("CEO :vivek ");
 };
 var onDefault=function(req, res){
     res.send("<h1>Cloud Computing universe Pvt. Ltd</h1>"+
